@@ -1,0 +1,23 @@
+body {
+    background-image:url('../img/background.gif');
+    background-size:100%;
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.center-h{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-underline-delete{
+    text-decoration: none;
+}
+.footer-links-style{
+    text-decoration: none;
+    color: rgb(113, 226, 52)
+}
+.footer-text-style{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
