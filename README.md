@@ -51,12 +51,8 @@
 
 ## Other
 
-README.md页面风格参考：https://github.com/Rise-forever/RStatus/blob/main/README.md
-
-小改学习志（作者博客）：https://www.haoyu233.com
-
-页面预览（作者的个人页面）：https://page.haoyu233.com
-
-GNU General Public License Version 3：https://www.gnu.org/licenses/gpl-3.0.html
-
-Bootstrap：https://getbootstrap.com/
+- README.md页面风格参考：https://github.com/Rise-forever/RStatus/blob/main/README.md
+- 小改学习志（作者博客）：https://www.haoyu233.com
+- 页面预览（作者的个人页面）：https://page.haoyu233.com
+- GNU General Public License Version 3：https://www.gnu.org/licenses/gpl-3.0.html
+- Bootstrap：https://getbootstrap.com/
