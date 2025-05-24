@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- 新 Bootstrap5 核心 CSS 文件 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="js/popper.min.js"></script>
+    <title>首页 - 小改de个人页面</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- 网站导航栏 -->
+    <div id="menu">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="">
+                    <img src="img/favicon.png" alt="Logo" width="28" height="28" class="d-inline-block align-text-top">
+                    小改de个人页面
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-body"
+                    aria-controls="menu-body" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-body">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">🏠首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" target="_blank"
+                                href="https://www.haoyu233.com/about.html">🙂关于我</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="https://www.haoyu233.com/friends.html"
+                                target="_blank">🔗友情链接</a>
+                        </li>
+                    </ul>
+                    <a href="https://www.haoyu233.com" target="_blank">
+                        <button class="btn btn-success text-white" type="submit">📚学习笔记</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- 网站导航栏结束 -->
+    <div class="jumbotron text-center py-2 py-md-2 mt-2" style="background-color:transparent;">
+        <img src="img/favicon.png" class="rounded-circle mx-auto d-block img-thumbnail" alt="Cinque Terre" width="200"
+            height="200">
+        <br>
+        <h1 class="text-white">你好，我叫小改</h1>
+        <p class="text-white">我是一个只会前端不会后端的渣渣，望多多指教</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#music">一起听歌~</button>
+    </div>
+    <br>
+    <div class="modal" id="music">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">一起听歌~</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">一起听歌吧~<br>
+                    <audio class="mx-auto d-block" src="music/1.mp3" controls></audio><br>
+                    <audio class="mx-auto d-block" src="music/2.mp3" controls></audio><br>
+                    <img src="img/belike.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 博客内容 -->
+    <div class="row row-cols-1 row-cols-md-2 g-4 col-md-10 mx-auto">
+        <div class="col">
+            <a href="https://www.haoyu233.com/1081.html" target="_blank" class="text-underline-delete">
+                <div class="card">
+                    <img src="https://www.haoyu233.com/wp-content/uploads/2025/04/1fae05c6db230a296e39d1ae1569ae94.webp"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">【C++学习笔记】递归算法的初步理解与应用</h5>
+                        <p class="card-text">
+                            这篇文章主要介绍了递归算法的应用和记忆化优化递归的方法。首先，通过计算阶乘的例子，解释了递归的基本概念和思想，即将一个问题分解为多个子问题，通过解决子问题来解决原问题。然后，通过斐波那契数列的例子，进一步说明了递归的应用。最后，提到了递归算法的优化方法——记忆化，即通过保存已经计算过的结果，避免重复计算，提高程序执行的效率。
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.haoyu233.com/1109.html" target="_blank" class="text-underline-delete">
+                <div class="card">
+                    <img src="https://www.haoyu233.com/wp-content/uploads/2025/04/0374f139fe50e43391037a94ef2d34f9.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">【25年15-16周记】长安研学记</h5>
+                        <p class="card-text">
+                            本文记述了作者在西安研学时的经历。到达西安后首先去看了城墙，震撼于古都的雄伟。接着参观了千古情景区，之后游览了小雁塔、西安博物馆、大唐不夜城等地，感受到了西安的历史底蕴和现代都市的繁华。最后参观了兵马俑，结束了这次研学之旅。文章表达了作者对西安的赞叹和对研学的理解，认为研学是探索世界的门户，但也需要自己亲自探索，践行“读万卷书，行万里路”。
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.haoyu233.com/1229.html" target="_blank" class="text-underline-delete">
+                <div class="card">
+                    <img src="https://www.haoyu233.com/wp-content/uploads/2025/05/f083e913879f2c70c4a4cc898b2e2acb.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">【25年20周记】期中考试结束、备战会考和一些收获</h5>
+                        <p class="card-text">
+                            期中成绩出乎意料，总分734.5分，语文、英语、历史表现突出，地理、生物也有进步，但仍有进步空间。即将面临生地会考，难度预计与中考相当。因考试成绩好，获得奖励，购买书籍和学习用品。万唯练习册使用体验良好。最近修补项目，维护个人页面。这周心情舒畅，期待进步，祝愿同学们考试顺利。
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.haoyu233.com/674.html" target="_blank" class="text-underline-delete">
+                <div class="card">
+                    <img src="https://www.haoyu233.com/wp-content/uploads/2025/01/b1415cd5137951bec09e073aa40134ac.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">【25年5周记】迁站和过年二三事</h5>
+                        <p class="card-text">
+                            作者在这篇文章中，分享了新年期间的一些经历，比如：迁移网站、购买云服务器、域名和主题，最终成功上线新站，将原先的春雨笔记迁移到新站。同时，作者也提到了过年期间收发微信礼物、在合肥游玩、观看春晚以及美食分享。总结了这一周的生活，并对网站的发展和未来表达了期望，这同时也是成长中的一个标志杆，也成为了作者记录生活的开始。
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- 博客内容结束 -->
+    <footer class="bd-footer py-3 py-md-3 mt-3" id="footer">
+        <div class="container py-4 py-md-4 px-4 px-md-3" style="background-color:transparent;">
+            <div class="row text-white">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-white text-underline-delete">
+                        <img src="img/footer-icon.png" alt="Logo" width="30" height="30"
+                            class="d-inline-block align-text-top">
+                        Gaisoft Personal Page
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">你好，我是小改，一位正在努力学习并且提升自己技能的在校学生。</li>
+                        <li class="mb-2">本页面原先基于小改的"abaqwq"项目改进，使用GPLv3协议开源。</li>
+                        <li class="mb-2">页面版本：v1.0.1 Alpha</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>本站导航</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="footer-links-style">个人首页</a></li>
+                        <li class="mb-2"><a href="https://www.haoyu233.com/about.html" class="footer-links-style"
+                                target="_blank">关于小改</a></li>
+                        <li class="mb-2"><a href="https://www.haoyu233.com/" class="footer-links-style"
+                                target="_blank">个人博客</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>博客导航</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://www.haoyu233.com" target="_blank"
+                                class="footer-links-style">个人博客</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/writing"
+                                class="footer-links-style">所有文章</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/archive.html"
+                                class="footer-links-style">归档页面</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/moments.html"
+                                class="footer-links-style">片刻页面</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>平台账号</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a target="_blank" href="https://v.douyin.com/ifuoKWm9/"
+                                class="footer-links-style">小改的抖音</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://space.bilibili.com/1509075074"
+                                class="footer-links-style">小改的b站</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://github.com/kadzh520"
+                            class="footer-links-style">小改的GitHub</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/feed"
+                                class="footer-links-style">博客RSS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>友情链接</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a target="_blank" href="https://www.rsv.ee"
+                                class="footer-links-style">Riseforever</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://makotowu.cnstlapy.cn"
+                                class="footer-links-style">makotowu运维笔记</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://blog.chenyuxia.com/"
+                            class="footer-links-style">老陈爱刷机de博客</a>
+                        </li>
+                        <li class="mb-2"><a target="_blank" href="https://github.com/kadzh520/Gaisoft-Personal-Page"
+                            class="footer-links-style">本页面项目仓库</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-white text-center" style="background-color:transparent;">
+                <p>©Copyright 2020-2025 <a href="https://page.haoyu233.com" class="footer-text-style"
+                        target="_blank">Gaisoft</a> All Rights Reserved.<br></p>
+                <p>Thanks:
+                    <a href="https://github.com">
+                        <button type="button" class="btn btn-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                                </path>
+                            </svg>
+                            Github
+                        </button>
+                    </a>
+                    <a href="https://getbootstrap.com">
+                        <button type="button" class="btn btn-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-bootstrap" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z">
+                                </path>
+                                <path
+                                    d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z">
+                                </path>
+                            </svg>
+                            Bootstrap
+                        </button>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
