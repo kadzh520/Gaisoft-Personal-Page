@@ -42,15 +42,17 @@
 
 ## Todo List
 
+本页面已在 v1.1.0 版本实现基本的功能，后续版本若作者的需求无太大的变动则不会对本项目进行大幅度的修改。
+
 - [x] 菜单栏
 - [x] 简要个人信息模块
 - [x] 网站底部信息
-- [x] 简要自我介绍
 - [x] 简要参与项目或案例展示
 - [x] 404页面
 - [ ] 优化史山代码
+- [ ] 改进 "Skills" 板块
 
-## 协议
+## 开源协议
 
 本项目采用 **GPL v3** 协议开源，你拥有免费使用、复制、修改和分发本项目的权利，但您 **必须** 要注意：
 
@@ -63,8 +65,8 @@
 
 ## Other
 
-- README.md页面风格参考：https://github.com/Rise-forever/RStatus/blob/main/README.md
+- 本项目 README.md 页面风格参考：https://github.com/Rise-forever/RStatus/blob/main/README.md
 - 小改学习志（作者博客）：https://www.haoyu233.com
-- 页面预览（作者的个人页面）：https://page.haoyu233.com
+- 页面预览（作者的个人页面）：https://pages.haoyu233.com
 - GNU General Public License Version 3：https://www.gnu.org/licenses/gpl-3.0.html
 - Bootstrap：https://getbootstrap.com/
