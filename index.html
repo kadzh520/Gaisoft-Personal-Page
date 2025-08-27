@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 新 Bootstrap5 核心 CSS 文件 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="js/popper.min.js"></script>
+    <title>首页 - 小改de个人页面</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fontsapi.zeoseven.com/79/main/result.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu -->
+    <div id="menu">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html">
+                    <img src="img/favicon.png" width="28" height="28" class="d-inline-block align-text-top">
+                    小改de个人页面
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-body"
+                    aria-controls="menu-body" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-body">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">🏠首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#skill">🚀相关爱好</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">🙂我是谁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#blog">📕推荐阅读</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#program">🎨我的作品</a>
+                        </li>
+                    </ul>
+                    <a href="https://www.haoyu233.com" target="_blank">
+                        <button class="btn btn-success text-white" type="submit">📚学习笔记</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Menu End -->
+    <!-- Start -->
+    <div class="jumbotron text-center py-2 py-md-2 mt-2" style="background-color:transparent;" id="beginning">
+        <img src="img/avatar.png" class="rounded-circle mx-auto d-block img-thumbnail" width="225" height="225">
+        <br>
+        <h1 class="text-white">你好，我叫小改</h1>
+        <p class="text-white">一位热爱编程、热爱学习同时热爱的生活初三学习人</p>
+        <a href="#about">
+            <button type="button" class="btn btn-success">🙂我是谁</button>
+        </a>
+        <a href="https://www.haoyu233.com" target="_blank">
+            <button type="button" class="btn btn-primary">📚学习笔记</button>
+        </a>
+    </div>
+    <!-- Start End -->
+    <br>
+    <!-- Skills -->
+    <div class="container mt-5 text-white" id="skill">
+        <h1 class="text-center">我的爱好</h1>
+        <p class="text-center text-white">我正在学习的一些我喜欢的技能</p>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-info" style="width:60%"></div>
+        </div>
+        <p class="text-left">C++</p>
+        <div class="progress">
+            <div class="progress-bar bg-warning" style="width:78%"></div>
+        </div>
+        <p class="text-left">Python</p>
+        <div class="progress">
+            <div class="progress-bar bg-danger" style="width:60%"></div>
+        </div>
+        <p class="text-left">视频创作/剪辑</p>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width:70%"></div>
+        </div>
+        <p class="text-left">HTML&CSS&JavaScript</p>
+    </div>
+    <!-- Skills End -->
+    <br>
+    <!-- 个人介绍 -->
+    <div class="container mt-5 text-white" id="about">
+        <h1 class="text-center">关于我</h1>
+        <p class="text-center text-white">你好，我叫小改，要不要互相认识一下？</p>
+        <div class="row">
+            <div class="col-sm-5 text-center float-end">
+                <img src="img/avatar.png" width="250" class="rounded-circle mx-auto d-block img-thumbnail">
+            </div>
+            <div class="col-sm-7 float-start">
+                <br>
+                <h2>你好，我叫小改</h2>
+                <h5>一位热爱学习、热爱编程、热爱生活的在校学生</h5>
+                <p>你好，我是小改，一位在某个不太知名的小城市里比较好的私立中学上学的初三学生。热爱编程与学习的同时也热爱生活，常常利用课余时间提升自己。
+                    <br>
+                    现在在尝试开发自己的一些项目，比如这个个人主页，虽然简陋，但也算是我真正意义上的“处女之作”。
+                </p>
+                <a href="#about">
+                    <button type="button" class="btn btn-success">🙂关于我</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 个人介绍 End -->
+    <br>
+    <!-- 博客内容 -->
+    <div style="background-color:transparent;" id="blog">
+        <h2 class="text-center text-white">推荐文章</h2>
+        <p class="text-center text-white">小改写的一些文章，欢迎大家阅读！</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 col-md-10 mx-auto">
+            <div class="col">
+                <a href="https://www.haoyu233.com/1767.html" target="_blank" class="text-underline-delete">
+                    <div class="card">
+                        <img src="https://www.haoyu233.com/wp-content/uploads/2025/08/1d0938c5bde26e767026a5072ec10e63.webp"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">【25年33周记】北京四日游记、发烧、初三Coming Soon…</h5>
+                            <p class="card-text">
+                                没有旅游团，也没有别的麻烦的事，就是一次轻松愉悦的北京游，不好玩的是旅游结束后我便发烧了。不过，初二升初三的暑假即将结束，这次暑假的倒计时预示着离初三和中考不远了……
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.haoyu233.com/1563.html" target="_blank" class="text-underline-delete">
+                    <div class="card">
+                        <img src="https://www.haoyu233.com/wp-content/uploads/2025/07/d500abc97ec5e8c4e4be206472739404.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">【运维笔记】使用ibd文件恢复MySQL数据表数据</h5>
+                            <p class="card-text">
+                                手欠去安装各种东西而不考虑后果是数据库资料丢失中比较常见的原因，而当我们有一些文件的时候，我们似乎可以通过一些方式去尽力恢复一些资料，本文将介绍使用ibd文件恢复MySQL数据的方法……
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.haoyu233.com/1517.html" target="_blank" class="text-underline-delete">
+                    <div class="card">
+                        <img src="https://www.haoyu233.com/wp-content/uploads/2025/07/6f67d78f0fc212c60af40ef36bc5f617.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">【旧事重提】我与蓝屏工作室的5年——"花有重开日，人无再少时"</h5>
+                            <p class="card-text">
+                                新冠疫情按下了“暂停键”，但这不影响每个人在便利的互联网中相遇。疫情的到来让一些不成熟的孩子相遇，而五年转瞬即逝，即使变化很多，蓝屏仍承载着许多人少年时的狂欢……
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 博客内容 End -->
+    <br>
+    <!-- 个人作品 -->
+    <div class="container-fluid bg-3 text-center text-white" id="program">
+        <h2>我的作品</h2>
+        <p>我曾经或者现在的一些作品</p>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="img/program-img/p1.png" class="img-responsive" style="width:175px">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/program-img/p2.png" class="img-responsive" style="width:175px">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/program-img/p3.png" class="img-responsive" style="width:175px">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/program-img/p4.png" class="img-responsive" style="width:175px">
+            </div>
+        </div>
+    </div>
+    <!-- 个人作品 End -->
+    <br>
+    <!-- Footer -->
+    <footer class="bd-footer py-3 py-md-3 mt-3" id="footer">
+        <div class="container py-4 py-md-4 px-4 px-md-3" style="background-color:transparent;">
+            <div class="row text-white">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-white text-underline-delete">
+                        <img src="img/footer-icon.png" alt="Logo" width="30" height="30"
+                            class="d-inline-block align-text-top">
+                        Gaisoft Personal Page
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">你好，我是小改，一位正在努力学习并且提升自己技能的在校学生。</li>
+                        <li class="mb-2">本页面原先基于小改的"abaqwq"项目改进，使用GPLv3协议开源。</li>
+                        <li class="mb-2">页面版本：v1.1.0</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>相关链接</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="footer-links-style">个人首页</a></li>
+                        <li class="mb-2"><a href="https://www.haoyu233.com/about.html" class="footer-links-style"
+                                target="_blank">关于小改</a></li>
+                        <li class="mb-2"><a href="https://www.haoyu233.com/" class="footer-links-style"
+                                target="_blank">个人博客</a></li>
+                        <li class="mb-2"><a href="https://www.haoyu233.com/friends.html" class="footer-links-style"
+                                target="_blank">友情链接</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>博客导航</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://www.haoyu233.com" target="_blank"
+                                class="footer-links-style">个人博客</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/writing"
+                                class="footer-links-style">所有文章</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/archive.html"
+                                class="footer-links-style">归档页面</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/moments.html"
+                                class="footer-links-style">片刻页面</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>平台账号</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a target="_blank" href="https://v.douyin.com/ifuoKWm9/"
+                                class="footer-links-style">小改的抖音</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://space.bilibili.com/1509075074"
+                                class="footer-links-style">小改的b站</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://github.com/kadzh520"
+                                class="footer-links-style">小改的GitHub</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://www.haoyu233.com/feed"
+                                class="footer-links-style">博客RSS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>友情链接</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a target="_blank" href="https://www.virelyx.com"
+                                class="footer-links-style">Virelyx</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://makotowu.cnstlapy.cn"
+                                class="footer-links-style">makotowu运维笔记</a></li>
+                        <li class="mb-2"><a target="_blank" href="https://blog.chenyuxia.com/"
+                                class="footer-links-style">老陈爱刷机de博客</a>
+                        </li>
+                        <li class="mb-2"><a target="_blank" href="https://github.com/kadzh520/Gaisoft-Personal-Page"
+                                class="footer-links-style">本页面项目仓库</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-white text-center" style="background-color:transparent;">
+                <p>©Copyright 2020-2025 <a href="https://pages.haoyu233.com" class="footer-text-style"
+                        target="_blank">kadzh520</a> All Rights Reserved.<br><a
+                        href="https://icp.gov.moe/?keyword=20254514" target="_blank"
+                        class="footer-text-style">萌ICP备20254514号</a> | 本站由<img src="img/hydun.png" width="60">提供内容分发网络加速与防护服务</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+</html>
